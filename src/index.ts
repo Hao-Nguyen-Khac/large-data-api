@@ -1,4 +1,4 @@
-import {
+export {
   makeArrayNumber,
   PromisePool,
   chunkBlock,
