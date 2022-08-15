@@ -1,0 +1,17 @@
+{
+  "name": "large-data-api",
+  "version": "1.0.0",
+  "repository": "git@github.com:Hao-Nguyen-Khac/large-data-api.git",
+  "author": "Hao Nguyen <haonguyenkhac.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
